@@ -55,3 +55,32 @@ main {
 h3 {
 	margin: 10px 0;
 }
+@media screen and (max-width:768px) {
+	main {
+		margin: 50px 0;
+		width: 100%;
+	}
+	.box {
+		width: 90%;
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+	.box:last-child {
+		margin: 0 auto;
+	}
+	.blog-img1 {
+		width: 100%;
+		margin: 2px 2px 0 2px;
+	}
+	.blog-img2 {
+		width: 100%;
+		margin: 2px 2px 0 2px;
+	}
+	.blog-img3 {
+		width: 100%;
+		margin: 2px 2px 0 2px;
+	}
+	h3 {
+		margin: 3px 0 3px 2px;
+	}
+}
